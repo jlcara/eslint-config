@@ -1,0 +1,11 @@
+{
+	"name": "Shared ESLint and Prettier config",
+	"scripts": {
+		"publish-eslint-config": "npm publish --workspace @jlcara/eslint-config-react",
+		"publish-prettier-config": "npm publish --workspace @jlcara/prettier-config"
+	},
+	"version": "1.0.0",
+	"workspaces": [
+		"packages/*"
+	]
+}

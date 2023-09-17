@@ -1,0 +1,27 @@
+{
+  "attributeGroups": [
+    "$CODE_GUIDE"
+  ],
+  "jsxSingleQuote": true,
+  "overrides": [
+    {
+      "files": [
+        "**/*.astro"
+      ],
+      "options": {
+        "parser": "astro"
+      }
+    }
+  ],
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-organize-attributes",
+    "prettier-plugin-astro",
+    "prettier-plugin-tailwindcss"
+  ],
+  "semi": false,
+  "singleQuote": true,
+  "tailwindConfig": "tailwind.config.cjs",
+  "trailingComma": "none",
+  "useTabs": true
+}
